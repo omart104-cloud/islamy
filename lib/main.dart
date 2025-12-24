@@ -1,0 +1,15 @@
+import 'package:flutter/material.dart';
+import 'package:islamy/screens/home/home.dart';
+
+
+void main(){
+runApp(Islamy());
+}
+class Islamy extends StatelessWidget {
+  const Islamy({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(debugShowCheckedModeBanner: false,home: Home(),);
+  }
+}
