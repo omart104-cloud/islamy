@@ -7,7 +7,8 @@ import 'package:islamy/screens/home/tabs/sebha.dart';
 import 'package:islamy/screens/home/tabs/time.dart';
 
 class Home extends StatefulWidget {
-  Home({super.key});
+  static const String routeName = '/home';
+  const Home({super.key});
 
   @override
   State<Home> createState() => _HomeState();

@@ -30,16 +30,16 @@ class SebhaBody extends StatelessWidget {
                 Padding(
                   padding: const EdgeInsets.only(top: 75.0),
                   child: Transform.rotate(
-                    angle: angle * (pi / 180),
+                    angle: angle * (pi / 400),
                     child: Image.asset(
                       "assets/images/sebha.png",
-                      height: 235,
+                      height: 400,
                     ),
                   ),
                 ),
                 Image.asset(
                   "assets/images/sebha_2.png",
-                  height: 105,
+                  height: 90,
                 ),
               ],
             ),
