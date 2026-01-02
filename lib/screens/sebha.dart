@@ -48,11 +48,11 @@ class _SebhaState extends State<Sebha> {
           const SizedBox(
             height: 180,
           ),
-          const Text(
+          Text(
             "سَبِّحِ اسْمَ رَبِّكَ الأعلى",
             textAlign: TextAlign.center,
             style: TextStyle(
-                fontSize: 40, color: AppColors.white, fontWeight: FontWeight.bold),
+                fontSize: 40, color: AppColors.white),
           ),
           const SizedBox(height: 40),
           SebhaBody(

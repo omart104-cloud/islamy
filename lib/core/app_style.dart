@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:islamy/core/app_colors.dart';
 
-class AppStyle{
-  static TextStyle titleStyle= GoogleFonts.lora(
-      color: AppColors.primary,
-      fontSize: 25,
-      fontWeight: FontWeight.bold);
+class AppStyle {
+  static const TextStyle titleStyle = TextStyle(
+    color: AppColors.primary,
+    fontFamily: 'Janna LT',
+    fontSize: 25,
+  );
 
-  static TextStyle bodyStyle= GoogleFonts.lora(color: AppColors.primary,
-      fontSize: 20,
-      fontWeight: FontWeight.bold);
+  static const TextStyle bodyStyle = TextStyle(
+    fontFamily: 'Janna LT',
+    color: AppColors.primary,
+    fontSize: 20,
+  );
 }

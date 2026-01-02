@@ -33,7 +33,7 @@ class SebhaBody extends StatelessWidget {
                     angle: angle * (pi / 400),
                     child: Image.asset(
                       "assets/images/sebha.png",
-                      height: 400,
+                      height: 350,
                     ),
                   ),
                 ),
@@ -53,7 +53,6 @@ class SebhaBody extends StatelessWidget {
                     style: const TextStyle(
                       fontSize: 40,
                       color: Colors.white,
-                      fontWeight: FontWeight.bold,
                     ),
                   ),
                   const SizedBox(height: 30),
@@ -62,7 +61,6 @@ class SebhaBody extends StatelessWidget {
                     style: const TextStyle(
                       fontSize: 40,
                       color: Colors.white,
-                      fontWeight: FontWeight.bold,
                     ),
                   ),
                 ],

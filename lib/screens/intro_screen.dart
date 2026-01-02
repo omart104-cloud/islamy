@@ -9,24 +9,18 @@ class IntroScreen extends StatelessWidget {
 
   IntroScreen({super.key});
 
-  final titleStyle = TextStyle(
-    color: AppColors.primary,
-    fontSize: 25,
-    fontWeight: FontWeight.bold,
-  );
-
   List<PageViewModel> get listPagesViewModel => [
     PageViewModel(
       titleWidget: Text(
         "Welcome To Islami App",
-        style: titleStyle,
+        style: AppStyle.titleStyle,
         textAlign: TextAlign.center,
       ),
       body: "",
       image: Image.asset("assets/images/intro_1.png"),
     ),
     PageViewModel(
-      titleWidget: Text("Welcome To Islami App", style: titleStyle),
+      titleWidget: Text("Welcome To Islami App", style: AppStyle.titleStyle),
       bodyWidget: Text(
         "We Are Very Excited To Have You In Our Community",
         style: AppStyle.bodyStyle,
@@ -35,7 +29,7 @@ class IntroScreen extends StatelessWidget {
       image: Image.asset("assets/images/intro_2.png"),
     ),
     PageViewModel(
-      titleWidget: Text("Reading The Quran", style: titleStyle),
+      titleWidget: Text("Reading The Quran", style: AppStyle.titleStyle),
       bodyWidget: Text(
         "Read, and your Lord is the Most Generous",
         style: AppStyle.bodyStyle,
@@ -44,7 +38,7 @@ class IntroScreen extends StatelessWidget {
       image: Image.asset("assets/images/intro_3.png"),
     ),
     PageViewModel(
-      titleWidget: Text("Tasbeeh", style: titleStyle),
+      titleWidget: Text("Tasbeeh", style: AppStyle.titleStyle),
       bodyWidget: Text(
         "Praise The Name Of Your Lord, The Most \n High",
         style: AppStyle.bodyStyle,
@@ -53,7 +47,7 @@ class IntroScreen extends StatelessWidget {
       image: Image.asset("assets/images/intro_4.png"),
     ),
     PageViewModel(
-      titleWidget: Text("Holy Quran Radio", style: titleStyle),
+      titleWidget: Text("Holy Quran Radio", style: AppStyle.titleStyle),
       bodyWidget: Text(
         "You can listen to the Holy Quran Radio through the application for free and easily",
         style: AppStyle.bodyStyle,
