@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:islamy/intro_screen/intro_screen.dart';
+
 import 'package:islamy/screens/home.dart';
+import 'package:islamy/screens/intro_screen/intro_screen.dart';
 
 
 void main() {
@@ -9,7 +10,6 @@ void main() {
 
 class Islamy extends StatelessWidget {
   const Islamy({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
